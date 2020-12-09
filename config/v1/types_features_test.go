@@ -26,6 +26,7 @@ func TestFeatureBuilder(t *testing.T) {
 					"SupportPodPidsLimit",
 					"NodeDisruptionExclusion",
 					"ServiceNodeExclusion",
+					"DownwardAPIHugePages",
 				},
 				Disabled: []string{
 					"LegacyNodeRoleBehavior",
@@ -45,6 +46,7 @@ func TestFeatureBuilder(t *testing.T) {
 					"NodeDisruptionExclusion",
 					"ServiceNodeExclusion",
 					"SCTPSupport",
+					"DownwardAPIHugePages",
 					"LegacyNodeRoleBehavior",
 				},
 				Disabled: []string{
@@ -62,6 +64,7 @@ func TestFeatureBuilder(t *testing.T) {
 					"SupportPodPidsLimit",
 					"NodeDisruptionExclusion",
 					"ServiceNodeExclusion",
+					"DownwardAPIHugePages",
 				},
 				Disabled: []string{
 					"LegacyNodeRoleBehavior",
@@ -82,6 +85,7 @@ func TestFeatureBuilder(t *testing.T) {
 					"NodeDisruptionExclusion",
 					"ServiceNodeExclusion",
 					"SCTPSupport",
+					"DownwardAPIHugePages",
 					"LegacyNodeRoleBehavior",
 					"other",
 				},
